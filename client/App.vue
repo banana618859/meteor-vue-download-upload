@@ -194,8 +194,8 @@ export default {
     async uploadImg(e){
         var that = this;
         console.log('--uploadImg--',e);
-        var ddpObj = await this.ddpConnect();
-        console.log('--ddpObj:',ddpObj.status())
+        // var ddpObj = await this.ddpConnect();
+        // console.log('--ddpObj:',ddpObj.status())
         if (e.target.files[0]) {
             // We upload only one file, in case
             // there was multiple files selected
@@ -205,7 +205,7 @@ export default {
 
             Images.insert({
                 file: file,
-                ddp: ddpObj,
+                // ddp: ddpObj,
                 meta:{
                     ownerId:'yizheng',
                     describe: 'good things'
