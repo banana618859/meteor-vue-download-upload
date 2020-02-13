@@ -168,11 +168,12 @@
         Meteor.loginWithPassword(user, password, [callback])
       },
       handleClose(done) {
-        this.$confirm('确认关闭？')
-          .then(_ => {
-            done();
-          })
-        1 > {});
+        done();
+        // this.$confirm('确认关闭？')
+        //   .then(_ => {
+        //     done();
+        //   })
+        // 1 > {});
       },
       ddpConnect() {
         // ddp connect
