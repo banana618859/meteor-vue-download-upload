@@ -77,6 +77,8 @@
   // download
   import '/imports/collections/download.js';
 
+  // test-table
+  import '/imports/collections/test';
 
   export default {
     data() {
@@ -243,6 +245,7 @@
                 alert('Error during upload: ' + error);
               } else
               {
+                console.log('文件名123：',fileObj.name)
                 alert('File "' + fileObj.name + '" successfully uploaded');
               }
               // template.currentFile.set(false);
