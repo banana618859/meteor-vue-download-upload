@@ -1,3 +1,10 @@
+/*
+ * @Descripttion: 
+ * @Author: yizheng.yuan
+ * @Date: 2019-10-09 15:05:50
+ * @LastEditors: yizheng.yuan
+ * @LastEditTime: 2020-04-07 10:48:04
+ */
 
 import { Meteor } from 'meteor/meteor';
 import { FilesCollection } from 'meteor/ostrio:files';

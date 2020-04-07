@@ -11,6 +11,7 @@
     "@babel/runtime": "^7.3.4",
     "element-ui": "^2.12.0",
     "meteor-node-stubs": "^0.4.1",
+    "usb": "^1.6.2",
     "vue": "^2.6.10",
     "vue-meteor-tracker": "^2.0.0-beta.5"
   },

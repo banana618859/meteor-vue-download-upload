@@ -75,7 +75,7 @@
   import { Images } from '/imports/collections/images.js';
 
   // download
-  import '/imports/collections/download.js';
+  // import '/imports/collections/download.js';
 
   // test-table
   import '/imports/collections/test';
@@ -104,6 +104,15 @@
       setTimeout(() => {
         console.log('--Images', Images)
         this.files = Images.find().fetch();
+
+        // Meteor.call('getusb',(e,r)=>{
+        //   console.log('usb-e,r',e,r)
+        // })
+
+        // 前端调用,不行。可能通过nw引入才行
+        // import {usb}  from 'usb'
+        // var list = usb.getDeviceList();
+        // console.log('usb-list:',list);
       }, 2000)
     },
     // Vue Methods
